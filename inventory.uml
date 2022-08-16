@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-306.0" y="11.5">login_window.LoginWindow</node>
+    <node x="6.0" y="279.5">admin_window.AdminWindow</node>
+    <node x="13.5" y="140.5">teacher_window.TeacherWindow</node>
+    <node x="320.0" y="0.0">user_methods.StudentMethods</node>
+    <node x="-300.0" y="130.5">main_menu.MainMenu</node>
+    <node x="320.0" y="148.0">user_methods.TeacherMethods</node>
+    <node x="-311.5" y="489.5">shortlist_window.ShortlistWindow</node>
+    <node x="327.5" y="274.0">user_methods.AdminMethods</node>
+    <node x="13.0" y="0.5">student_window.StudentWindow</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="user_methods.TeacherMethods" target="user_methods.StudentMethods" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="461.5" y="120.0" />
+      <point x="462.0" y="120.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="user_methods.AdminMethods" target="user_methods.TeacherMethods" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="463.5" y="260.0" />
+      <point x="461.5" y="260.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9162929745889388" showDependencies="false" x="102.0" y="316.0" />
+  <SelectedNodes>
+    <node>user_methods.AdminMethods</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
